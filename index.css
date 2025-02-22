@@ -1,0 +1,39 @@
+body { 
+    background-color: antiquewhite; 
+} 
+
+h1, h4, p { 
+    text-align: center; 
+    font-family: Cochin, Times New Roman; 
+} 
+
+p { 
+    font-size: large;
+}
+
+.physics { 
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    width: 250px;
+} 
+
+.chemistry { 
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 250px;
+} 
+
+.biology { 
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 251);
+    width: 250px;
+}
