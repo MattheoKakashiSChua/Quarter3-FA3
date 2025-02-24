@@ -11,6 +11,9 @@ function partofStory() {
     if(highest==num1) { 
         if(num1==num2) { 
         document.getElementById("compare").innerHTML = "The data was a bit odd to Rick because the it showed that there were two subjects that have the highest number of passers which is Physics, Chemistry(" + num1 + ")";
+        } 
+        else if(num1==num3) { 
+            document.getElementById("compare").innerHTML = "The data was a bit odd to Rick because it showed that there were two subjects that have the highest number of passers which is Physics, Biology(" + num3 + ")";
         }
         else { 
         document.getElementById("compare").innerHTML = "Then, Rick stated to Roll that the highest number of passers is from Physics(" + num1 + ")"; 
@@ -25,12 +28,7 @@ function partofStory() {
         }
     } 
     else if(highest==num3) { 
-        if(num3==num1) {
-            document.getElementById("compare").innerHTML = "The data was a bit odd to Rick because it showed that there were two subjects that have the highest number of passers which is Physics, Biology(" + num3 + ")";
-        } 
-        else {
         document.getElementById("compare").innerHTML = "Then, Rick stated to Roll that the highest number of passers is from Biology(" + num3 + ")"; 
-        }
     } 
      
     
